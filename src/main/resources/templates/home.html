@@ -1,0 +1,36 @@
+<!--
+  Student Name: Sones
+  File Name: home.html
+  Date:08/26/2023
+--> 
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org"> 
+<head>
+    <title>"Hello"-world</title>
+    <meta charset="utf-8">
+
+</head>
+
+<body>
+  <header>
+    <h2>&#128062; Hello &#128062; to all the beautiful people,</h2>
+    <h3>I am Earth</h3>
+  </header>
+  <nav>
+    <a href="home.html">Home</a>&nbsp; &#9672; &nbsp;
+    <a href="message.html">a message to biologicals</a> &nbsp; &#9672; &nbsp; 
+  </nav>
+
+<!-- Use the main area to add the main content to the webpage -->
+  <main>
+    <div>
+        <img th:src="@{src\main\resources\templates\Earth_from_Space.jpg}" alt="earth"/>
+      </div>
+  </main>
+  <footer>
+    <p>&copy; Copyright 2023. All Rights Reserved.</p>
+<p><a href = "mailto: earth@planetary.net"></a></p> 
+  </footer>
+
+</body>
+</html>
